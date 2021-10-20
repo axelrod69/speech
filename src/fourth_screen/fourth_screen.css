@@ -1,0 +1,81 @@
+.fourth_screen {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+.fourth_screen > div {
+    background-color: rgb(22, 30, 54);
+}
+
+.middle_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 8px;
+    list-style: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+li .link:hover {
+    text-decoration: underline;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 500px;
+    /* padding: 50px; */
+}
+
+.mainContent > div {
+    /* height: auto; */
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.passForm {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 250px;
+    height: 20px;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+}
+
+.footer > div {
+    color: rgb(3, 169, 97);
+    align-items: baseline;
+}

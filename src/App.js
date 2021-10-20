@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import FirstScreen from './first_screen/first_screen';
+import SecondScreen from './second_screen/second_screen';
+import ThirdScreen from './third_screen/third_screen';
+import FourthScreen from './fourth_screen/fourth_screen.';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        {/* <FirstScreen></FirstScreen> */}
+        <Switch>
+          <Route path="/first_screen">
+            <FirstScreen />
+          </Route>
+          <Route path="/second_screen">
+            <SecondScreen />
+          </Route>
+          <Route path="/third_screen">
+            <ThirdScreen />
+          </Route>
+          <Route path="/fourth_screen">
+            <FourthScreen />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

@@ -1,0 +1,117 @@
+.second_screen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+
+.second_screen > div {
+    background-color: rgb(22, 30, 54);
+}
+
+.middle_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 50px;
+}
+
+.speakers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.speakers > div {
+    display: flex;
+}
+
+.name {
+    height: 50px;
+    width: 200px;
+    text-align: justify;
+}
+
+.testimonial {
+    height: auto;
+    width: 500px;
+    text-align: justify;
+}
+
+.about {
+    text-align: start;
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.about_speaker {
+    height: auto;
+    width: 500px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.email {
+    margin: 50px 0 50px 30px;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+.image {
+    position: absolute;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    top: -30px;
+    right: 62px;
+    background-color: black;
+}
+
+.profile_pic {
+    object-fit: contain;
+    object-position: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+}
+
+.footer > div {
+    color: rgb(3, 169, 97);
+    align-items: baseline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 8px;
+    list-style: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+li .link:hover {
+    text-decoration: underline;
+}
